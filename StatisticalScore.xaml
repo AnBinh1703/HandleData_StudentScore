@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="StatisticalScore" Height="450" Width="800">
     <Grid>
+      
         
+        <ListView x:Name="DataListView" Grid.Row="1" Margin="5,0,5,0" VerticalAlignment="Top" ItemsSource="{Binding DataItems}" Height="24">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Year}"/>
+                    <GridViewColumn Header="Student" DisplayMemberBinding="{Binding Student}"/>
+                    <GridViewColumn Header="Count" DisplayMemberBinding="{Binding Count}"/>
+                    <GridViewColumn Header="Mathematics" DisplayMemberBinding="{Binding Mathematics}"/>
+                    <GridViewColumn Header="Literature" DisplayMemberBinding="{Binding Literature}"/>
+                    <GridViewColumn Header="Physics" DisplayMemberBinding="{Binding Physics}"/>
+                    <GridViewColumn Header="Biology" DisplayMemberBinding="{Binding Biology}"/>
+                    <GridViewColumn Header="English" DisplayMemberBinding="{Binding English}"/>
+                    <GridViewColumn Header="Chemistry" DisplayMemberBinding="{Binding Chemistry}"/>
+                    <GridViewColumn Header="History" DisplayMemberBinding="{Binding History}"/>
+                    <GridViewColumn Header="Geography" DisplayMemberBinding="{Binding Geography}"/>
+                    <GridViewColumn Header="Civic Education" DisplayMemberBinding="{Binding CivicEducation}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+       
+
     </Grid>
 </Window>

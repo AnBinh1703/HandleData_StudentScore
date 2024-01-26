@@ -396,6 +396,14 @@ namespace HandleData_StudentScore
                 }
             }
         }
+
+       
+
+        private void Button_statistical(object sender, RoutedEventArgs e)
+        {
+            StatisticalScore statisticalScore = new StatisticalScore();
+            statisticalScore.Show();
+        }
     }
 }
 

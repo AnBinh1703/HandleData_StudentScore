@@ -14,5 +14,6 @@
         <Button Content="Browser" HorizontalAlignment="Left" Margin="574,0,0,0" VerticalAlignment="Center" Height="26" Width="92" Click="Button_Browser"/>
         <Button Content= "Import" HorizontalAlignment="Left" Margin="220,265,0,0" VerticalAlignment="Top" Height="26" Width="123" Click="Button_Import"/>
         <Button Content="Clear" HorizontalAlignment="Left" Margin="405,265,0,0" VerticalAlignment="Top" Height="26" Width="123" Click="Button_Clear"/>
+        <Button Content="View statistical subject" HorizontalAlignment="Left" Margin="228,323,0,0" VerticalAlignment="Top" Width="292" Click="Button_statistical"/>
     </Grid>
 </Window>
